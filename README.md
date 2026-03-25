@@ -1,22 +1,52 @@
-# Connect4 Game 🎮
+🎮 Connect 4 AI Game
 
-**Connect4** is a classic two-player connection game implemented in **Python**. The game supports two modes: **Player vs Player** and **Player vs Computer (AI)**.  
+A Python-based Connect 4 game featuring an intelligent AI opponent using the Minimax algorithm with Alpha-Beta Pruning.
 
-Players take turns dropping their pieces into a **7x6 grid**, and the first to connect four of their pieces **vertically, horizontally, or diagonally** wins.  
+📌 Overview
 
-This project demonstrates **Object-Oriented Programming (OOP)** principles and includes a **Graphical User Interface (GUI)** for an interactive experience.
+This project implements the classic Connect 4 game with a graphical user interface and an AI-powered opponent.
 
-## Features ✨
-- Two game modes:
-  - **Player vs Player (PvP)**
-  - **Player vs Computer (PvC)**
-- Score tracking for both players
-- Winning combination highlighting
-- Reset button to start a new game without restarting
-- Interactive GUI using **Tkinter**
+The AI analyzes possible moves and selects the optimal one using adversarial search techniques, making the gameplay challenging and engaging.
 
-## Technologies & Libraries 🛠️
-- **Python 3.x**
-- **Tkinter** for GUI
-- **Random** module for AI moves
-- Optional: `numpy` for board management
+✨ Features
+🎯 Interactive GUI using Tkinter
+🤖 AI opponent (Minimax Algorithm)
+⚡ Alpha-Beta Pruning optimization
+🧠 Heuristic evaluation function
+🚫 Input validation (prevents invalid moves)
+🔄 Restart game option
+🏆 Score tracking system
+🎮 Player vs AI gameplay
+🧠 AI Logic
+
+The AI decision-making is based on:
+
+Minimax Algorithm → explores possible future moves
+Alpha-Beta Pruning → reduces computation time
+Heuristic Function → evaluates board strength
+Evaluation Strategy:
+Favor center column positions
+Reward sequences of 2, 3, and 4
+Penalize opponent threats
+
+🛠️ Tech Stack
+Python
+Tkinter
+OOP (Object-Oriented Programming)
+Algorithms & Data Structures
+
+🎮 How to Play
+Choose who starts (Player or AI)
+Click on a column to drop your piece
+First player to connect 4 pieces wins
+Pieces can connect:
+Horizontally
+Vertically
+Diagonally
+
+💡 Key Concepts
+Artificial Intelligence (Game AI)
+Minimax & Alpha-Beta Pruning
+Heuristic Evaluation
+Event-Driven Programming
+Game State Management
